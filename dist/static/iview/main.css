@@ -1,0 +1,231 @@
+/*设置*/
+.zsx-setting{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #eee url('../images/bg.jpg') no-repeat center;
+	z-index: 999;
+}
+.setting-box{
+	position: absolute;
+	right: 20%;
+	bottom:30%;
+	width: 410px;
+}
+#multiple-select .ivu-select-selection{
+	max-height: 200px;
+	overflow-y: auto;
+}
+/*头部*/
+.zsx-header{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 20px;
+	background-color: #23262E;
+}
+.herder-title{
+	float: left;
+}
+.zsx-header .demo-badge-alone{
+	background: #7d8492 !important;
+}
+.zsx-header .text{
+	font-size: 22px;
+	color: white;
+}
+.zsx-header .ivu-badge-count{
+	right: -20px;
+}
+.header-other{
+	padding-right: 20px;
+	float: right;
+	text-align: right;
+}
+.header-other .drap{
+	position: relative;
+}
+/*拖拽容器*/
+.drag-content{
+	position: absolute;
+	top: 60px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+/*侧边栏*/
+.zsx-sidebar{
+	position: absolute;
+	left: 0;
+	top:0;
+	bottom: 0;
+	width: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #495060;
+}
+.zsx-sidebar-search{
+	padding: 10px;
+}
+.zsx-sidebar .ivu-menu-item{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.zsx-sidebar .ivu-menu-vertical .ivu-menu-submenu-title{
+	padding-left: 15px!important;	
+}
+.zsx-sidebar .ivu-menu-vertical .ivu-menu-item{
+	padding-left: 30px!important;
+}
+.get,
+.post,
+.put,
+.patch,
+.delete,
+.head,
+.options{
+	color: #fff;
+	padding: 8px 12px;
+	border-radius: 5px;
+}
+.get{background-color:#0f6ab4;}
+.post{background-color: #009688;}
+.put{background-color: #c5862b;}
+.patch{background-color: orange;}
+.delete{background-color: #a41e22;}
+.head{background-color: aqua;}
+.options{background-color: pink;}
+/*右侧*/
+.zsx-main-right{
+	position: absolute;
+	left: 300px;
+	top: 0;
+	right:0;
+	bottom: 0;
+}
+/*主要内容区*/
+.zsx-main{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 44px;
+	padding: 10px;
+	overflow: auto;
+}
+.tags-box{
+	position: relative;
+	height: 37px;
+	background: #e9eaec;
+}
+#wrapper{
+	position: absolute;
+	left: 0;
+	right: 100px;
+	height: 100%;
+	overflow: hidden;
+}
+#scroller{
+	position: absolute;
+	/*width: auto;*/
+	width: 5000px;
+	height: 100%;
+}
+#scroller ul{
+	width: 100%;
+	height: 100%;
+}
+#scroller li{
+	float: left;
+	/*width: 110px;*/
+	height: 100%;
+	padding-right: 5px;
+}
+.tags-operation{
+	position: absolute;
+	right: 10px;
+	top: 2px;
+}
+.zsx-main .parameters-type{
+	/*text-align: right;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/* 自定义请求头部 */
+.self-headers-content{
+	
+}
+.response-box{
+	position: relative;
+}
+.response-item{
+
+}
+/*.debug-table textarea{
+	width: 100%;
+	margin-top: 5px;
+}*/
+.response-item .tit{
+	color: #0f6ab4;
+	padding: 15px 0 5px;
+}
+.response-item .con{
+	background-color: #fcf6db;
+	border: 1px solid #e5e0c6;
+	padding: 10px;
+}
+.response-body{
+	position: relative;
+	/*max-height: 200px;
+	overflow-y: auto;*/
+}
+/*页脚*/
+.zsx-footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #666;
+}
+.terms-service{
+	color: #333;
+}
+.terms-service:hover{
+	color: red;
+}
+/*拖拽的线*/
+.drag-line{
+	position: absolute;
+	left: 300px;
+	top: 0;
+	width: 4px;
+	height: 100%;
+	cursor: w-resize;
+	background-color: aqua;
+}
+/*通用*/
+.fieldsetForm{
+	margin: 10px 0;
+}
+.fieldsetForm fieldset{
+	border:none;
+	border-top: 1px solid #e2e2e2;
+}
+.fieldsetForm legend{
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+.pad-left10{padding-left: 10px;}
